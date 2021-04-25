@@ -19,6 +19,7 @@ describe("async callback tests", function() {
       port: 5555
     });
     browser.init({}, function(err) {
+      // console.error(err);
       should.not.exist(err);
       done(null);
     });
